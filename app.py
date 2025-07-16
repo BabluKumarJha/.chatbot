@@ -18,8 +18,13 @@ import torch
 import torch.nn as nn
 
 ##--------------------- Download punkt-tab for NLP process------------------#
-nltk.data.path.append(r"C:\Users\BKJST\Desktop\python\Project\Chatbot\first chatbot\.venv\nltk_data")
-nltk.download('punkt_tab', download_dir=r"C:\Users\BKJST\Desktop\python\Project\Chatbot\first chatbot\.venv\nltk_data")
+## For local machine.
+# nltk.data.path.append(r"C:\Users\BKJST\Desktop\python\Project\Chatbot\first chatbot\.venv\nltk_data")
+# nltk.download('punkt_tab', download_dir=r"C:\Users\BKJST\Desktop\python\Project\Chatbot\first chatbot\.venv\nltk_data")
+
+## for streamlit cloud
+nltk.download('punkt')
+nltk.download('wordnet')
 
 # -------------------- Chatbot Model------------------------###
 class ChatbotModel(nn.Module):
