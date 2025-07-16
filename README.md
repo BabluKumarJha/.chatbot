@@ -54,7 +54,7 @@ You can also enter `/quit` to exit the chatbot.
 
 ![Chatbot Screenshot](screenshot/87c64ca4f57c4dbdb95018057966f9fe.jpg)
 ![Chatbot Screenshot](screenshot/9b3de3eb376848c1b0950cd32d5c9ac2.jpg)
-![Chatbot Screenshot](screenshot/1e9ac0568b4d47b287b8ae21973a2377.jpg)
+[![Chatbot Screenshot](screenshot/1e9ac0568b4d47b287b8ae21973a2377.jpg)](https://github.com/BabluKumarJha/General_chatbot_model_v1/blob/edd94616927afa7f08df262b33a882fa6585f1ff/screenshot/1e9ac0568b4d47b287b8ae21973a2377.jpg)
 ![Chatbot Screenshot](screenshot/95852fb88e664f618c54ab2f826162c3.jpg)
 
 
