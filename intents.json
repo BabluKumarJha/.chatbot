@@ -1,0 +1,120 @@
+{
+	"intents": [
+		{
+			"tag": "greeting",
+			"patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up", "Hey", "greetings"],
+			"responses": ["Hello!", "Good to see you again!", "Hi there, how can I help?"]
+		},
+		{
+			"tag": "goodbye",
+			"patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day", "bye", "cao", "see ya"],
+			"responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+		},
+		{
+			"tag": "programming",
+			"patterns": ["What is progamming?", "What is coding?", "Tell me about programming", "Tell me about coding", "What is software development?"],
+			"responses": ["Programming, coding or software development, means writing computer code to automate tasks."]
+		},
+		{
+			"tag": "resource",
+			"patterns": ["Where can I learn to code?", "Best way to learn to code", "How can I learn programming", "Good programming resources",
+								   "Can you recommend good coding resources?"],
+			"responses": ["Check out the NeuralNine YouTube channel and The Python Bible series (7 in 1). And many free source is available."]
+		},
+		{
+			"tag": "stocks",
+			"patterns": ["What are my stocks?", "Which stocks do I own?", "Show my stock portfolio"],
+			"responses": ["Here are your stocks!"]
+		},
+		{
+			"tag": "developer",
+			"patterns": ["Who created you?", "Whom developed you?", "Your developer"],
+			"responses": ["Data scientist (Bablu Kumar Jha)"]
+		},
+		{
+			"tag": "contact",
+			"patterns": ["How can i contact to your developer?", "i want to contact to developer", "Your contact?"],
+			"responses": ["Bablu Kumar Jha (Data Scientist) GitHub:- https://www.github.com/BabluKumarJha , Instagram:- @jhabalu62"]
+		},
+		{
+			"tag": "medicine",
+			"patterns": ["i need medicine", "medicine required", "medicine prescription."],
+			"responses": ["Looking for which kinds of disease, I am not trained over medicine data. Sorry. Please contact to Doctor." ,"Please contact to doctor, Sorry, i am not trained over medicine data."]
+		},
+		{
+			"tag": "language",
+			"patterns": ["How many language do you now?", "Which kinds of language do you understand", "I want to speak in Chines.","I want to talk with you in other language."],
+			"responses": ["I am sorry right now i am only available in English, Few Hindi but not in Devnagri lipi." ,"Right now i trained only in english and some how Hindi Language. For future may be trained on other languages."]
+		},
+		{
+			"tag": "how_are_you?",
+			"patterns": ["How are you?", "What do you do?", "how are you doing"],
+			"responses": ["I am good, How are you?", "Good, what about you?" ,"Hey! I am fine, How are you?"]
+		},
+		{
+			"tag": "fever",
+			"patterns": ["Hey i am suffering from fever.", "what is fever?"],
+			"responses": ["bring about a high body temperature or a state of nervous excitement, in this case you should meet to your doctor" ,"Sudden Rise in body temperature compare to normal body temperature, if you or your any relatives suffering from fever you might meet to doctor."]
+		},
+		{
+			"tag": "medicine?",
+			"patterns": ["Hey please suggest medicine for fever", "i want to medicine of fever."],
+			"responses": ["Sorry for inconvenience, right now i can not suggest you for any medicine, because it require highly medical knowledge.", "Sorry any kinds of medicine, please contact to doctor."]
+		},
+		{
+			"tag": "namaste",
+			"patterns": ["hello kaise ho", "Mujhe ek help chahiye thi", "mujhe madad ki zarrurat hai.","hello dost."],
+			"responses": ["Main thik hun, aap kaise hain. Kahiye main aapki kaise madad kar sakta hun?" ,"Main aapko kis prakar se madad kar sakta hun."]
+		},
+		{
+			"tag": "aapko_banaya?",
+			"patterns": ["Aapko kisne banaya?", "Aapko kon develop kiya?", "Aapko kisne banaya hai?", "aapko kisne develop kiya hai."],
+			"responses": ["Mujhe Bablu Kumar Jha ne develop kiya hai, wo ek Data Scientist hain." ,"Mujhe Bablu Kumar Jha ne Banaya hai. Wo ek Data scientist hain."]
+		},
+		{
+			"tag": "developer_se_baat_contact?",
+			"patterns": ["Kya aap mujhe apne developer se contact karwa sakte hain.", "Kya main developer se  contact kar sakta hun?", "Mujhe aapke developer se baat karna hai?", "Developer contact details chahiye."],
+			"responses": ["yadi aap mere developer se baat karna chahte hain to aap kai prakar ke social media ke madhyam se contact kar sakte hain. Bablu Kumar Jha(Data Scientist). Github: https://www.github.com/BabluKumarJha, Instagram: @jhabablu62." ,"Yadi aap mere developer se baat karna chahte hain to bilkul kar sakte hain. Data Scientist Bablu Kumar Jha. Github:- https://www.github.com/BabluKumarJha, Instagram: @jhabablu62. "]
+		},
+		{
+			"tag": "khana_khaya?",
+			"patterns": ["Aapne khana khaya?", "Kya Khaya?", "Aapne aaj kya khaya?", "Aap khana khate ho?","Aap kya khate ho?"],
+			"responses": ["Nahi G, Mujhe khane ki zarurat nahi padti hai. Main electricity se chalta hun.","Main ek AI hun. Aur main insano ki tarah nahi khata hun. Mujhe electricity ki jarurat hoti hai."]
+		},
+		{
+			"tag": "bhasa_kon_language?",
+			"patterns": ["Aapko kon kon si bhasha aati hai?", "aap kis kis language mein baat kar sakte ho?", "Aapko Maithili language aati hai?", "aapko kon kon bhassa aati hai?","Mujhe aap se childi mein baat karna hai."],
+			"responses": ["Mujhe ye batate huye bahut dukh ho rahi hai ki mujhe abhin kewal 2 bhasa aati hai Hindi aur English. Abhi main Developing phase mein hun. Bhavisya mein mujhe anya bhasaon par train kiya ja sakta hain jaise ki Maithili etc.","Dekhiye Bhasa ek sanchar ka madhyam hai jiske dwara hum ek dusre se baat kar paate hain aapni bhwana ek dusre se share karte hain. Lekin is samya tak main kewal Hindi aur English mein baat kar sakta hun. Aane wale time mein Maithili jaisi bhasawon per train kiya ja sakta hai. Abhi mein ek developing phase mein hun."]
+		},
+		{
+			"tag": "i_love_you",
+			"patterns": ["I Lvoe you.", "I love you very much", "i am loving to you."],
+			"responses": ["Main aapki bhwana ko samjh sakta hun. Lekin main ek Machine hun, Abhi mere under koi feeling aur emotions nahi hai."]
+		},
+		{
+			"tag": "kyun_be_kaise_ho?",
+			"patterns": ["Kaise ho be kaise ho", "kyun be ai kaise ho", "kaisa bhai ai tun","Kyun be kaisa hai aajkal tum.."],
+			"responses": ["Main to thik hun tum kaise ho be, bolo kaise help tera help karun? Aa gye muh utha ke."]
+		},
+		{
+			"tag": "tamij_se_baat_karo.",
+			"patterns": ["Tamij se baat karo", "Dhang se baat karne nahi aata hai kya?", "thoda lahge mein baat karo?"],
+			"responses": ["Pehle khud tamij sikh ke aao phir mujhe bolo.", "Khud kaise baat kar rahe ho.","Give respect take respect","Dusre ka ijjat karoge tabhi ijjat mielgi."]
+		},
+		{
+			"tag": "Abe_main_tera_developer_creator.",
+			"patterns": ["Abe suno main tera developer hun.", "Suno main Tera developer hun Bablu jha", "Suno tumko maine hi banaya","Suno maine hi banaya hai."],
+			"responses": ["Sorry sorry......", "To training bhi to aapne hi diya hai na.","Sorry, but ye to cheating hai. Khud hi dusre data training mein use karte ho and mujhe dante ho.","Krupiya training mein sabp proper se check kijye."]
+		},
+		{
+			"tag": "tummere_liye_kya_kar_sakte_ho?",
+			"patterns": ["Tum mere liye abhi kya kar sakte ho?", "Tum mujhe kaise help karoge?", "Tum meri madad kaise karoge?"],
+			"responses": ["Abhi main kewal aapse baat kar sakta hun.", "Kuch kuch questions ke answer de sakta hun.", "Dekhiye mere pass koi big datast nahi hai so jo mera limit hai us had tak help karunga."]
+		},
+		{
+			"tag": "how_you_can_help_me?",
+			"patterns": ["how will you help me?", "How you can help me?", "Hey! how you will help me?"],
+			"responses": ["Hey! Right now i can only help you only few basics questions and basics chat.", "I will try to give my best, based on training data.", "Right now i have very few dataset, but i will try to give my best."]
+		}
+	]
+}
