@@ -51,7 +51,7 @@ You can also enter `/quit` to exit the chatbot.
 
 
 ### 📸 App Demo (Live on streamlit cloud) 
-(https://generalchatbotmodelv1-dxsuimp7rujtkvkixzampz.streamlit.app/) 
+[Live Demo](https://generalchatbotmodelv1-dxsuimp7rujtkvkixzampz.streamlit.app/)
 
 
 
