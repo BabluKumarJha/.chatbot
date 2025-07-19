@@ -24,6 +24,7 @@ import torch.nn as nn
 
 ## for streamlit cloud
 nltk.download('punkt', force = True)
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 
 
