@@ -23,8 +23,9 @@ import torch.nn as nn
 # nltk.download('punkt_tab', download_dir=r"C:\Users\BKJST\Desktop\python\Project\Chatbot\first chatbot\.venv\nltk_data")
 
 ## for streamlit cloud
-nltk.download('punkt')
+nltk.download('punkt', force = True)
 nltk.download('wordnet')
+
 
 # -------------------- Chatbot Model------------------------###
 class ChatbotModel(nn.Module):
